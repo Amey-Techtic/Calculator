@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2 id="headText">Calculator</h2>
+        <input type="text" id="display" />
+
+        <div id="buttonContainer">
+            <button value="7" onclick="buttonClick('7')">7</button>
+            <button value="8" onclick="buttonClick('8')">8</button>
+            <button value="9" onclick="buttonClick('9')">9</button>
+            <button value="/" onclick="buttonClick('/')" class="yellowButton">/</button>
+            <button value="4" onclick="buttonClick('4')">4</button>
+            <button value="5" onclick="buttonClick('5')">5</button>
+            <button value="6" onclick="buttonClick('6')">6</button>
+            <button value="X" onclick="buttonClick('*')" class="yellowButton">x</button>
+            <button value="1" onclick="buttonClick('1')">1</button>
+            <button value="2" onclick="buttonClick('2')">2</button>
+            <button value="3" onclick="buttonClick('3')">3</button>
+            <button value="+" onclick="buttonClick('+')" class="yellowButton">+</button>
+            <button value="0" onclick="buttonClick('0')">0</button>
+            <button value="clear" class="redButton" onclick="clearValue('clear')">AC</button>
+            <button value="DEL" class="redButton" onclick="clearValue('delete')">DEL</button>
+            <button value="-" onclick="buttonClick('-')" class="yellowButton">-</button>
+
+
+
+        </div>
+        <div>
+            <button value="=" id="equalButton" onclick="calculate()" class="yellowButton">=</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
