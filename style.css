@@ -52,6 +52,7 @@ button{
 button:hover{
     background-color: #c9bfbf;
     color: white;
+    font-weight: bold;
 }
 
 #equalButton{
